@@ -2,6 +2,7 @@
 
 * Esse projeto foi criado para tentar resolver um problema probabílistico relacionado a um desafio feito por uma empresa de software:
 
+<pre>
 Duas pessoas, Marcelo e Carla, trabalham em uma fazenda de maçãs na qual existem N árvores. As
 árvores estão alinhadas em uma fileira e são numeradas de 1 a N. Marcelo planeja coletar maçãs de
 K árvores consecutivas e Carla de L árvores consecutivas. Eles querem escolher segmentos
@@ -22,6 +23,7 @@ escolherá as árvores 1 e 2, coletando assim 3 + 4 = 7 maçãs.
 
 Dado o vetor A = [1, 3, 5], K = 2, L = 2 a função deverá retornar -1, pois não existe como
 Marcelo e Carla escolherem dois intervalos disjuntos de tamanho 2.
+</pre>
 
 > REQUISITOS
 
