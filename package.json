@@ -1,0 +1,28 @@
+{
+  "name": "balkochallenge",
+  "version": "1.0.0",
+  "description": "Projeto para resolver desafio proposto para uma situação probabilistica",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jereelton-devel/balkochallenge.git"
+  },
+  "keywords": [
+    "api",
+    "python",
+    "flask",
+    "javascript",
+    "jquery",
+    "web",
+    "tests"
+  ],
+  "author": "Jereelton Teixeira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jereelton-devel/balkochallenge/issues"
+  },
+  "homepage": "https://github.com/jereelton-devel/balkochallenge#readme"
+}

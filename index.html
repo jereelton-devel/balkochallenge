@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>BALKO Challenge</title>
+    <meta name="description" content="CHALLENGE">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <link rel="stylesheet" href="js/vendor/toastr/toastr.min.css"/>
+</head>
+<body>
+
+<div id="div-container-request">
+
+    <div id="div-request-options">
+
+        <div class="div-options">
+            <h2>BALKO CHALLENGE</h2>
+        </div>
+
+        <div class="div-request-options padding-top-1">
+            <button class="btn btn-warning" type="button" id="bt-test-stop" value="Encerrar">Encerrar</button>
+            <button class="btn btn-success" type="button" id="bt-exec-request" value="Enviar">Enviar</button>
+            <button class="btn btn-default" type="button" id="bt-cancel-request" value="Cancelar">Cancelar</button>
+            <button class="btn btn-danger" type="button" id="bt-fill-data" value="Preencher">Preencher</button>
+            <button class="btn btn-primary" type="button" id="bt-automatic-data" value="Testar">Testar</button>
+        </div>
+
+    </div>
+
+    <div id="div-body-request">
+
+        <div id="div-list-elements">
+
+            <div class="div-input-request">
+                <p>
+                    (A) Informe a quantidade de árvores
+                    <br />
+                    <input type="text" name="" id="input-qty-elements" class="input-text-request" value="" />
+                </p>
+            </div>
+
+            <div class="div-input-request" id="div-input-k">
+                <p>
+                    (K) Informe um valor para
+                    <br />
+                    <input type="text" name="" id="input-qty-k" class="input-text-request" value="" />
+                </p>
+            </div>
+
+            <div class="div-input-request" id="div-input-l">
+                <p>
+                    (L) Informe um valor para
+                    <br />
+                    <input type="text" name="" id="input-qty-l" class="input-text-request" value="" />
+                </p>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="div-input-request item-qty" id="div-qty-each-item">
+            </div>
+
+            <div class="clearfix"></div>
+
+        </div>
+
+    </div>
+
+    <div id="div-requester-results">
+
+        <div id="div-request-results">
+        </div>
+
+        <div id="div-tec-details">
+        </div>
+
+    </div>
+
+</div>
+
+<script type="text/javascript" src="./js/vendor/jquery/jquery-1.11.3.js"></script>
+<script src="js/vendor/toastr/toastr.min.js"></script>
+<script type="text/javascript" src="./js/script.js"></script>
+
+</body>
+</html>
